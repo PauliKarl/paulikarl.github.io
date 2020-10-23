@@ -44,13 +44,13 @@ Other Resources
 
 Ports
 - [**Hexo**](https://github.com/Kaijun/hexo-theme-huxblog) by @kaijun
-- [**React-SSR**](https://github.com/LucasIcarus/huxpro.github.io/tree/ssr) by @LucasIcarus
+- [**React-SSR**](https://github.com/LucasIcarus/paulikarl.github.io/tree/ssr) by @LucasIcarus
 
-[Starter/Boilerplate](https://github.com/huxpro/huxblog-boilerplate)
+[Starter/Boilerplate](https://github.com/PauliKarl/paulikarl-boilerplate)
 - Out of date. Helps wanted for updating it on par with the main repo
 
 Translation
-- [🇨🇳 (somewhat outdated)](https://github.com/Huxpro/huxpro.github.io/blob/master/_doc/README.zh.md)
+- [🇨🇳 (somewhat outdated)](https://github.com/PauliKarl/paulikarl.github.io/blob/master/_doc/README.zh.md)
 
 
 License
