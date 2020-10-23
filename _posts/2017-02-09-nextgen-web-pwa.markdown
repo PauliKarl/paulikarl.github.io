@@ -409,7 +409,7 @@ PWA 作为一个涵盖性术语，与过往的这些或多或少通过私有平�
 
 [20]: https://msdn.microsoft.com/en-us/library/dn320426%28v=vs.85%29.aspx "Browser configuration schema reference - MSDN"
 
-[21]: https://huangxuan.me "Hux Blog"
+[21]: https://paulikarl.github.io "Paulikarl Blog"
 
 [22]: https://www.html5rocks.com/en/tutorials/notifications/quick/ "Using the Notification API"
 

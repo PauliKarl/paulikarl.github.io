@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: paulikarlcn@gmail.com
 description: "关于程序与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @paulikarl黄玄 的个人博客，与你一起发现更大的世界。"
 keyword: "黄玄, paulikarl黄玄, paulikarl, 鬼栈, paulikarlpro, @paulikarlpro, 黄玄的博客, paulikarl Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://paulikarl.me"              # your host, for absolute URL
+url: "https://paulikarl.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     paulikarl
-zhihu_username:     paulikarl
+#weibo_username:     paulikarl
+#zhihu_username:     paulikarl
 github_username:    paulikarl
-twitter_username:   paulikarl
+#twitter_username:   paulikarl
 #facebook_username:  paulikarl
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -71,8 +71,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: paulikarl.me
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: paulikarl.github.io
 
 
 
