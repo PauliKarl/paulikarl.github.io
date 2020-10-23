@@ -2,7 +2,7 @@
 title: Paulikarl Blog
 SEOTitle: Paulikarl的博客 | Paulikarl Blog
 header-img: img/home-bg.jpg
-email: paulikarlcn@gmail.com
+email: pengdong@whu.edu.cn
 description: "关于程序与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @paulikarl黄玄 的个人博客，与你一起发现更大的世界。"
 keyword: "黄玄, paulikarl黄玄, paulikarl, 鬼栈, paulikarlpro, @paulikarlpro, 黄玄的博客, paulikarl Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
 url: "https://paulikarl.github.io"              # your host, for absolute URL
@@ -101,7 +101,12 @@ page-mathjax: false
 
 
 # Friends
-##friends: [
+friends: [
+    {
+        title: "baccano-cn",
+        href: "https://github.com/baccano-cn",
+        email: paulikarlcn@gmail.com
+    }
 ##    {
     #     title: "Su",
     #     href: "http://su.gallery/"
@@ -133,4 +138,4 @@ page-mathjax: false
 ##        title: "尹峰以为",
 ##        href: "http://ingf.github.io/"
 ##    }
-##]
+]
