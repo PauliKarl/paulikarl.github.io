@@ -23,16 +23,16 @@ tags:
 ` Maritime_label = {'Maritime Vessel', 'Motorboat', 'Sailboat', 'Tugboat', 'Barge', 'Fishing Vessel', 'Ferry', 'Yacht', 'Container Ship','Oil Tanker'} `
 
 
-1. 提取的bbox标注格式转化成txt文件格式，见[geojson2txt.py](https://github.com/PauliKarl/pktool/blob/main/pktool/datasets/xview/geojson2txt.py)
+##### 提取的bbox标注格式转化成txt文件格式，见[geojson2txt.py](https://github.com/PauliKarl/pktool/blob/main/pktool/datasets/xview/geojson2txt.py)
 
 bbox = [xmin, ymin, xmax, ymax]
 存储的txt文件格式 *xmin,ymin,xmax,ymax,label*
 
-1. 将xview图像切割到固定尺寸，例如800x800，代码[split_image.py](https://github.com/PauliKarl/pktool/blob/main/pktool/datasets/xview/split_image.py)
+##### 将xview图像切割到固定尺寸，例如800x800，代码[split_image.py](https://github.com/PauliKarl/pktool/blob/main/pktool/datasets/xview/split_image.py)
 
 *设置原图路径和从geojson文件转的txt标注文件路径*
 
-1. 按比例设置数据集训练集和验证集[generate_dataset.py](https://github.com/PauliKarl/pktool/blob/main/pktool/datasets/xview/generate_dataset.py)
+##### 按比例设置数据集训练集和验证集[generate_dataset.py](https://github.com/PauliKarl/pktool/blob/main/pktool/datasets/xview/generate_dataset.py)
 ```
 if __name__=="__main__":
     origin_dataset_dir = '/data/pd/xview/origin'
@@ -42,7 +42,7 @@ if __name__=="__main__":
     #shuffle_dataset(origin_dataset_dir, trainval_dir, test_dir, trainval_rate=0.8, image_format='.png', label_format='.txt', seed=0)
 ``` 
 
-4. txt转化为coco中json的格式即可[xview2coco.py](https://github.com/PauliKarl/pktool/blob/main/pktool/datasets/xview/xview2coco.py)
+##### txt转化为coco中json的格式即可[xview2coco.py](https://github.com/PauliKarl/pktool/blob/main/pktool/datasets/xview/xview2coco.py)
 ```
 coco_annotation['segmentation']=[object_struct['segmentation']] #=pointobb,[polygon]格式，用于跑mask RCNN系列
 coco_annotation['iscrowd'] = 0
