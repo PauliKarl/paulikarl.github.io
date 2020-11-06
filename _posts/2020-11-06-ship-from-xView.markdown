@@ -30,15 +30,7 @@ bbox = [xmin, ymin, xmax, ymax]
 
 1. 将xview图像切割到固定尺寸，例如800x800，代码[split_image.py](https://github.com/PauliKarl/pktool/blob/main/pktool/datasets/xview/split_image.py)
 
-*设置参数即可*
-`subimage_size = 800  gap = 200`
-*原图路径和从geojson文件转的txt标注文件路径*
-` image_path = '/data2/zrx/xView/images' `
-` label_path = '/data/pd/xview/shiptxt/' `
-*保存路径*
-` image_save_path = '/data/pd/xview/origin/images' `
-` label_save_path = '/data/pd/xview/origin/labels' `
-
+*设置原图路径和从geojson文件转的txt标注文件路径*
 
 1. 按比例设置数据集训练集和验证集[generate_dataset.py](https://github.com/PauliKarl/pktool/blob/main/pktool/datasets/xview/generate_dataset.py)
 ```
