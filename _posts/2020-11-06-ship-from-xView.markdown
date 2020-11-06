@@ -14,11 +14,12 @@ tags:
 
 > 参考师兄的工具集[wwtool](https://github.com/jwwangchn/wwtool.git)制作自己的转换代码
 
-本文的目的在于记录从[xView](http://xviewdataset.org/)数据集中提取出舰船目标，并转换成coco数据格式用于mmdetection训练。
+    本文的目的在于记录从[xView](http://xviewdataset.org/)数据集中提取出舰船目标，并转换成coco数据格式用于mmdetection训练。
 
-首先，从60类标签见[xview_class_labels.txt](https://github.com/PauliKarl/pktool/blob/main/pktool/datasets/xview/xview_class_labels.txt)中挑选出舰船目标
+### 正文
+    首先，从60类标签见[xview_class_labels.txt](https://github.com/PauliKarl/pktool/blob/main/pktool/datasets/xview/xview_class_labels.txt)中挑选出舰船目标
 ```
-Maritime_label = {'Maritime Vessel', 'Motorboat', 'Sailboat', 'Tugboat', 'Barge', 'Fishing Vessel', 'Ferry', 'Yacht', 'Container Ship','Oil Tanker'}
+    Maritime_label = {'Maritime Vessel', 'Motorboat', 'Sailboat', 'Tugboat', 'Barge', 'Fishing Vessel', 'Ferry', 'Yacht', 'Container Ship','Oil Tanker'}
 ```
 
 1. 提取的bbox标注格式转化成txt文件格式，见[geojson2txt.py](https://github.com/PauliKarl/pktool/blob/main/pktool/datasets/xview/geojson2txt.py)
