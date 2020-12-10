@@ -1,0 +1,13 @@
+---
+layout:     post
+title:      "FCOS"
+subtitle:   " \"阅读笔记之FCOS \""
+date:       2020-12-10 18:00:00
+author:     "paulikarl"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - object detection
+    - fcos
+    - single stage
+---
