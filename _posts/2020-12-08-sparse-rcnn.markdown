@@ -66,5 +66,5 @@ proposal feature能被看作是一种attention机制的实现，用于关注SxS�
 
 **set prediction loss** 由于sparseRCNN是集合预测，基于集合的loss会在gts和preds之间产生一个最优的二元匹配。matching loss：Lcls+L1+Lgiou
 
-RCNN家族已经被many-to-one的分配方式困惑已久...
+RCNN家族被many-to-one的分配方式困惑已久...
 
