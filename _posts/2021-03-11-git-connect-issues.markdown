@@ -19,8 +19,15 @@ tags:
 
 1.正确的为git配置代理的方法如下：
 ```
-git config --global http.https://github.com.proxy http://127.0.0.1:7890（此处填写自己的ip,下面也是一样）
+git config --global http.https://github.com.proxy http://127.0.0.1:7890
 git config --global https.https://github.com.proxy https://127.0.0.1:7890
+```
+>查看全局配置可用git config --global -l
+
+>取消代理
+```
+git config --global --unset http.proxy
+git config --global --unset https.proxy
 ```
 
 然后push报错
