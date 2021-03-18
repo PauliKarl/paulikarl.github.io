@@ -20,7 +20,7 @@ tags:
 ##### 2. 打开settings文件，配置编译过程
 
 ```
-
+{
     "latex-workshop.latex.tools": [
         {
             // 编译工具和命令
